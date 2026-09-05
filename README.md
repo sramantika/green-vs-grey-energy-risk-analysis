@@ -55,7 +55,7 @@ Daily returns were computed from closing prices. From these, the following metri
 | 5 | ADANIGREEN.NS | 0.83 | Green |
 | 6 | COALINDIA.NS | 0.82 | Grey |
 
-*See `Figure_3.png` — bars colored by basket, with the Adani Green / Tata Power anomaly annotated directly on the chart.*
+See `growth_opportunity_score_chart.png` — bars colored by basket, with the Adani Green / Tata Power anomaly annotated directly on the chart.
 
 ### Basket-Level Comparison
 
@@ -74,7 +74,7 @@ A 90-day ARIMA forecast was generated for both baskets' average price:
 
 Both forecasts converge to a near-flat trend beyond a few days out — consistent with the well-documented near-random-walk behavior of stock prices. This is an expected property of ARIMA on price data, not a modeling flaw; it illustrates methodology rather than predicting a strong directional move.
 
-*See `Figure_1.png` and `Figure_2.png`.*
+See green_basket_forecast.png and grey_basket_forecast.png
 
 ## Risk Summary
 Adani Green stands out as the highest-risk name in the dataset by a wide margin: a maximum drawdown of -84.44%, far steeper than any other stock analyzed, despite posting a respectable +31.6% alpha. This shows that its low risk-adjusted score is driven by an extreme downside event rather than weak underlying returns — a distinction a Sharpe ratio or Growth Opportunity Score alone doesn't fully convey.
